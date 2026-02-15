@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #f4f6ff;
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #111a33;
+  border: 1px solid #2b3a65;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.55rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #324473;
+  background: #101a33;
+  color: #e8ebff;
+}
+
+button {
+  cursor: pointer;
+  background: #1e3a8a;
+  border: none;
+  font-weight: 600;
+}
+
+.message {
+  margin: 1rem 0;
+  color: #93c5fd;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
